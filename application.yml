@@ -1,11 +1,12 @@
-server:
-  port: ${PORT:8888}
+global-message: This is a global message for all services
+#server:
+ # port: ${PORT:8888}
 
-spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      server:
-        git:
-          uri: https://github.com/royalejandro09/spring-cloud-server
+#spring:
+#  application:
+#    name: config-server
+# cloud:
+#   config:
+#     server:
+#       git:
+#         uri: https://github.com/royalejandro09/spring-cloud-server
