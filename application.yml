@@ -4,7 +4,7 @@ global-message: This is a global message for all services
 
 #spring:
 #  application:
-#    name: config-server
+#    name: config-service
 # cloud:
 #   config:
 #     server:
