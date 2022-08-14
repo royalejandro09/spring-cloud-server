@@ -1,4 +1,4 @@
-global-message: This is a global message for all services
+#global-message: This is a global message for all services
 #server:
  # port: ${PORT:8888}
 
