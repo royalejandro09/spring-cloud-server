@@ -15,9 +15,9 @@ spring:
           uri: http://localhost:8082/ #URL donde se hará el redirect segun el predicate definido
           predicates: #Reglas de análisis de una request
             - Path=/games/** #Predicate definido para este redirect
-          filters: 
-            - AddRequestHeader=game-request-header, custom-game-request-header
-            - AddResponseHeader=game-response-header, custom-game-response-header
+          #filters: 
+           # - AddRequestHeader=game-request-header, custom-game-request-header
+           # - AddResponseHeader=game-response-header, custom-game-response-header
         - id: libraryRoute #Identificando la ruta del service de library-service
           uri: http://localhost:8084/ #URL donde se hará el redirect segun el predicate definido
           predicates: #Reglas de análisis de una request
