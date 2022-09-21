@@ -1,0 +1,21 @@
+server:
+  port: 8086
+  
+spring:
+  zipkin:
+    base-url: http://localhost:9411/
+    enabled: true
+#   data:
+#     mongodb:
+#       authentication-database: admin
+#       username: rootuser
+#       password: rootpass
+#       database: tp_final
+#       port: 27017
+#       host: mongodb
+
+info:
+  app:
+    name: serie-service
+    version: 1.0.0
+    description: Serie service

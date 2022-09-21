@@ -1,0 +1,8 @@
+server:
+  port: 8083
+
+info:
+  app:
+    name: catalog-service
+    description: Catalog service
+    version: 1.0.0
