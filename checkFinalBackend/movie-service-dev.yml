@@ -7,6 +7,10 @@ info:
     description: Service for movies
     version: 1.0.0
 
+queue:
+  movie:
+    name: Movie
+
 spring:
   application:
     name: movie-service
@@ -22,3 +26,9 @@ spring:
     defer-datasource-initialization: true
     hibernate:
       ddl-auto: create-drop
+
+  rabbitmq:
+    username: guest
+    password: guest
+    host: localhost
+    port: 5672
